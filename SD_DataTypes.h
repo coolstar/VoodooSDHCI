@@ -1,0 +1,72 @@
+#include "License.h"
+
+struct SDCIDReg_t
+	{
+		UInt8		MID;
+		UInt16		OID;
+		char		PNM[6];
+		UInt8		PRV[2];
+		UInt32		PSN;
+		UInt8		MDT[2];
+	};
+
+struct SDCSDReg1_t
+	{
+		UInt8		CSD_STRUCTURE;
+		UInt8		TAAC;
+		UInt8		NSAC;
+		UInt8		TRAN_SPEED;
+		UInt16		CCC;
+		UInt8		READ_BL_LEN;
+		UInt8		READ_BL_PARTIAL;
+		UInt8		READ_BLK_MISALIGN;
+		UInt8		DSR_IMP;
+		UInt16		C_SIZE;
+		UInt8		VDD_R_CURR_MIN;
+		UInt8		VDD_R_CURR_MAX;
+		UInt8		VDD_W_CURR_MIN;
+		UInt8		VDD_W_CURR_MAX;
+		UInt8		C_SIZE_MULT;
+		UInt8		ERASE_BLK_EN;
+		UInt8		SECTOR_SIZE;
+		UInt8		WP_GRP_SIZE;
+		UInt8		WP_GRP_ENABLE;
+		UInt8		R2W_FACTOR;
+		UInt8		WRITE_BL_LEN;
+		UInt8		WRITE_BL_PARTIAL;
+		UInt8		FILE_FORMAT_GRP;
+		UInt8		COPY;
+		UInt8		PERM_WRITE_PROTECT;
+		UInt8		TMP_WRITE_PROTECT;
+		UInt8		FILE_FORMAT;
+		UInt8		CRC;
+	};
+	
+struct SDCSDReg2_t
+	{
+		UInt8		CSD_STRUCTURE;
+		UInt8		TAAC;
+		UInt8		NSAC;
+		UInt8		TRAN_SPEED;
+		UInt16		CCC;
+		UInt8		READ_BL_LEN;
+		UInt8		READ_BL_PARTIAL;
+		UInt8		READ_BLK_MISALIGN;
+		UInt8		DSR_IMP;
+		UInt32		C_SIZE;
+		UInt8		ERASE_BLK_EN;
+		UInt8		SECTOR_SIZE;
+		UInt8		WP_GRP_SIZE;
+		UInt8		WP_GRP_ENABLE;
+		UInt8		R2W_FACTOR;
+		UInt8		WRITE_BL_LEN;
+		UInt8		WRITE_BL_PARTIAL;
+		UInt8		FILE_FORMAT_GRP;
+		UInt8		COPY;
+		UInt8		PERM_WRITE_PROTECT;
+		UInt8		TMP_WRITE_PROTECT;
+		UInt8		FILE_FORMAT;
+		UInt8		CRC;
+	};
+	
+		
