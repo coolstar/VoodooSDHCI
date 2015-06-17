@@ -133,6 +133,8 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "VoodooSDHC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -200,7 +202,7 @@
 		1DEB91DA08733DB10010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1d1;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -213,6 +215,7 @@
 				MODULE_VERSION = 1.1d1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = VoodooSDHC;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 				ZERO_LINK = YES;
 			};
@@ -221,7 +224,7 @@
 		1DEB91DB08733DB10010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CURRENT_PROJECT_VERSION = 1.1d1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -230,6 +233,7 @@
 				MODULE_NAME = com.Voodoo.driver.VoodooSDHC;
 				MODULE_VERSION = 1.1d1;
 				PRODUCT_NAME = VoodooSDHC;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
